@@ -1,6 +1,6 @@
-module github.com/dependabot/foo
+module github.com/dependabot/bar
 
-go 1.23.3
+go 1.22.3
 
 require (
 	github.com/dsp-testing/jake-golib v1.0.0
