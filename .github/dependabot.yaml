@@ -5,3 +5,5 @@ updates:
     labels:
       - dependencies
       - go
+    schedule:
+        interval: "daily"
