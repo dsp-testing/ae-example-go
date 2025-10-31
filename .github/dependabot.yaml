@@ -1,9 +1,0 @@
-version: 2
-updates:
-  - package-ecosystem: "gomod"
-    directory: "/"
-    labels:
-      - dependencies
-      - go
-    schedule:
-        interval: "daily"
