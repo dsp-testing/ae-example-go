@@ -1,7 +1,5 @@
 github.com/dsp-testing/jake-golib v1.0.0 h1:2MbD+yzyT09lzqhJFM3eTaOdyWs4mmcxFs7FuHxXvnc=
 github.com/dsp-testing/jake-golib v1.0.0/go.mod h1:M3ifE/aX9cD7dQg6uK2XJTt2uZfGJnSP4E9vu0caiRE=
-github.com/dsp-testing/jake-golib v1.0.7 h1:nddf4afAh84x2Iajo1iH8wrVB8EB+DP2dQkb5GijuV8=
-github.com/dsp-testing/jake-golib v1.0.7/go.mod h1:2WuOFZ1DjMR9mXTgoKWoDq/y+6kjAHhU+7tj1/HApyA=
 golang.org/x/text v0.3.6 h1:aRYxNxv6iGQlyVaZmk6ZgYEDa+Jg18DxebPSrd6bg1M=
 golang.org/x/text v0.3.6/go.mod h1:5Zoc/QRtKVWzQhOtBMvqHzDpF6irO9z98xDceosuGiQ=
 golang.org/x/text v0.3.7/go.mod h1:u+2+/6zg+i71rQMx5EYifcz6MCKuco9NR6JIITiCfzQ=
