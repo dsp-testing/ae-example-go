@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main
+      - head
 jobs:
   syft-detection:
     runs-on: ubuntu-latest
