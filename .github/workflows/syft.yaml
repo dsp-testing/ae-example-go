@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - main
-      - head
+      - license-check
 jobs:
   syft-detection:
     runs-on: ubuntu-latest
