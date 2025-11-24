@@ -1,23 +1,23 @@
-name: Go Action detection of dependencies
-on:
-  push:
-    branches:
-      - main
-
-jobs:
-  go-action-detection:
-    runs-on: ubuntu-latest
-    steps:
-      - name: 'Checkout Repository'
-        uses: actions/checkout@v5
-
-      - uses: actions/setup-go@v6
-        with:
-          go-version-file: 'go.mod'
-          cache: true
-
-      - name: Submit dependencies for cmd/api-test
-        uses: actions/go-dependency-submission@main
-        with:
-          go-mod-path: go.mod
-          go-build-target: ./gomain.go
+#name: Go Action detection of dependencies
+#on:
+#  push:
+#    branches:
+#      - main
+#
+#jobs:
+#  go-action-detection:
+#    runs-on: ubuntu-latest
+#    steps:
+#      - name: 'Checkout Repository'
+#        uses: actions/checkout@v5
+#
+#      - uses: actions/setup-go@v6
+#        with:
+#          go-version-file: 'go.mod'
+#          cache: true
+#
+#      - name: Submit dependencies for cmd/api-test
+#        uses: actions/go-dependency-submission@main
+#        with:
+#          go-mod-path: go.mod
+#          go-build-target: ./gomain.go
